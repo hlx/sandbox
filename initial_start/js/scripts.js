@@ -1,11 +1,9 @@
 /*jslint browser:true */
 /*global $ window */
 
+$(document).ready(function() {
+  "use strict";
 
-$(document).ready(function () {
-    "use strict";
-
-    var msg = "hello world";
-    window.alert(msg);
-
+  var msg = "hello world";
+  window.alert(msg);
 });
